@@ -5,7 +5,7 @@ Este repositório guarda o código-fonte do meu novo portfólio pessoal. Decidi 
 ## :dart: Objetivo do Projeto
 Criar um portfólio prático para demonstrar meus conhecimentos e evolução no desenvolvimento Front-end (HTML, CSS e JavaScript), construindo interfaces modernas, responsivas e focadas na experiência do usuário.
 
-## :tools: Tecnologias Utilizadas (Até o momento)
+## 🛠️ Tecnologias Utilizadas (Até o momento)
 * **HTML5:** Estrutura semântica.
 * **CSS3:** Variáveis globais, Flexbox para alinhamento e efeitos de UI (Neon Hover, Box-shadow).
 
