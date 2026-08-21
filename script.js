@@ -32,14 +32,39 @@ btnVoltar.addEventListener('click', () => {
 
 const linksDoMenu = document.querySelectorAll('.cabecalho-link');
 
-linksDoMenu.forEach(function(link){
-    link.addEventListener('click', function(evento){
+linksDoMenu.forEach((link) => {
+    link.addEventListener('click', (evento) => {
         evento.preventDefault();
         const idDaSecao = link.getAttribute('href');
         const secao = document.querySelector(idDaSecao);
-        secao.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center'
-        });
-    });
-});
+
+        if (secao) {
+            secao.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+    })
+})
+
+const formContato = document.getElementById('form-contato');
+const inputNome = document.getElementById('input-nome');
+const inputEmail = document.getElementById('input-email');
+const inputMensagem = document.getElementById('input-mensagem');
+
+if (formContato) {
+    formContato.addEventListener('submit', (evento) => {
+        evento.preventDefault();
+
+        const nome = inputNome.value.trim();
+        const email = inputEmail.value.trim();
+        const mensagem = inputMensagem.value.trim();
+
+        if (nome === '' || email === '' || mensagem === '') {
+            alert('Por favor, preencha o formulário antes de enviar!');
+        } else {
+            alert('Obrigado! Sua mensagem foi enviada com sucesso.');
+            formContato.reset();
+        }
+    })
+}
