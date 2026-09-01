@@ -13,7 +13,7 @@ Criar um portfólio prático para demonstrar meus conhecimentos e evolução no 
 * **CSS3:** Variáveis globais, Flexbox para alinhamento e efeitos visuais de UI (Neon Hover, Box-shadow).
 * **JavaScript:** Manipulação do DOM, scroll suave na navegação, lógica para o slider customizado de projetos e programação defensiva na interface do formulário.
 
-## :map: Roadmap (Próximos Passos)
+## 📝 Roadmap (Próximos Passos)
 Acompanhe o desenvolvimento do projeto:
 - [x] Estruturação da Hero Section (HTML/CSS)
 - [x] Efeitos visuais e botões de Call to Action
